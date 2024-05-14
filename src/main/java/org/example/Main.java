@@ -19,7 +19,7 @@ public class Main {
             System.out.println("Please enter a number between 1 and 5: ");
 
             while (!scanner.hasNextInt()) {
-                System.out.println("Please enter a valid number");
+                System.out.println("Please enter a valid number, pleasse try again: ");
                 scanner.next();
             }
 
